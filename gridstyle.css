@@ -2,9 +2,39 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-body{
+header{
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 15px;
+    background-color:black;
+}
+  
+.nav-links ul{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+}
+  
+.nav-links a:hover{
+    text-decoration: underline;
+    color: rgb(16, 132, 221);
+}
+
+.nav-links a:visited{
+    text-decoration: none;
+}
+
+main{
     display: flex;
     justify-content: center;
     background-color: black;
@@ -12,10 +42,10 @@ body{
     height: 100vh;
 }
 
-main{
+.grid{
     display: grid;
     gap: 15px;
-    width: 40%;
+    width: 50%;
 
     grid-template-areas: 
     
