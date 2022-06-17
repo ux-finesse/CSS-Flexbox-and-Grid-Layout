@@ -5,20 +5,18 @@
   text-decoration: none;
 }
 
-main {
-  display: flex;
-  width: 60%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 header{
   width: 100%;
   padding: 20px 0;
 }
 
+main{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 130px auto 0;
+}
 .nav-links ul{
   margin: auto;
   display: flex;
