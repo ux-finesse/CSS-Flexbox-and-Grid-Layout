@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body,
+img {
+  padding: 0 0 25px 0;
+}
+
+body,
+h1 {
+  padding: 0 0 25px 0;
+  font-size: 42px;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+body,
+p {
+  font-size: 15px;
+  padding: 0 0 87px 0;
+  line-height: 1.5;
+  font-family: "Lexend Deca", sans-serif;
+  color: whitesmoke;
+}
+
+.card-1 {
+  width: 50%;
+  height: 530px;
+  padding: 60px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-2 {
+  width: 50%;
+  height: 530px;
+  padding: 60px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+  width: 50%;
+  height: 530px;
+  padding: 60px;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-1-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.card-2-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.card-3-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.card-1-button {
+  width: 145px;
+  height: 48px;
+  border-radius: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #d6883d;
+  border: none;
+  font-weight: 600;
+}
+
+.card-2-button {
+  width: 145px;
+  height: 48px;
+  border-radius: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  color: #265c64;
+  font-weight: 600;
+}
+
+.card-3-button {
+  width: 145px;
+  height: 48px;
+  border-radius: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #173f3e;
+  border: none;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
