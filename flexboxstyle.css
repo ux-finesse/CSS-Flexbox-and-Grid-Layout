@@ -17,6 +17,7 @@ main{
   align-items: center;
   margin: 130px auto 0;
 }
+
 .nav-links ul{
   margin: auto;
   display: flex;
