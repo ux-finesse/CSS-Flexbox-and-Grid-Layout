@@ -50,7 +50,6 @@ main{
     grid-template-areas: 
     
     'a a b'
-    'a a b'
     'c d d'
     'c e e'
     ;
@@ -76,6 +75,7 @@ main div{
     background-color: sienna;
     width: 100%;
     grid-area: b;
+    
 }
 
 .shape-c{
